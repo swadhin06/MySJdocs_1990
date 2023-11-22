@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   tasks : 
-  - name : i want to uninstall webser apache
+  - name : i want to install webser apache
     apt :
       name : apache2
-      state: absent
+      state: present
