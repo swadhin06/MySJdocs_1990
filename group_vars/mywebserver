@@ -2,3 +2,5 @@
 variables: value
 mywebpackonubuntu: apache2
 mywebpackonredhat: httpd
+myjavaonubuntu: openjdk-11-jdk
+myjavaonredhat: java-11-openjdk
