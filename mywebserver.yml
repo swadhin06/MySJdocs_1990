@@ -16,7 +16,7 @@
 
   - name : i want to start webser apache
     dnf :
-      name : "{{mywebpackouredhat}}"
+      name : "{{mywebpackonredhat}}"
       state: present
     when : ansible_os_family=="RedHat"
 
