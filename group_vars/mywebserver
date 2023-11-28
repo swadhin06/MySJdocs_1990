@@ -1,0 +1,4 @@
+---
+variables: value
+mywebpackonubuntu: apache2
+mywebpackonredhat: httpddddd
