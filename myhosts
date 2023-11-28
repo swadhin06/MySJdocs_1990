@@ -3,17 +3,18 @@
 172.31.26.248
 
 [myappserver]
-172.31.35.101
-172.31.26.248
+172.31.35.22
+172.31.26.45
 
 [mywDBserver]
-172.31.35.101
-172.31.26.248
+172.31.35.36
+172.31.26.29
 
 [myubuntuserver]
 172.31.35.101
-172.31.26.248
 
 [myredhatserver]
-172.31.35.101
 172.31.26.248
+
+mywebpackonubuntu=apache222
+mywebpackonredhat=httpd

@@ -4,25 +4,25 @@
   tasks : 
   - name : i want to install webser apache
     apt :
-      name : apache2
+      name : "{{mywebpackonubuntu}}"
       state: present
     when : ansible_os_family=="Debian"
 
   - name : i want to start webser apache
     service :
-      name : apache2
+      name : "{{mywebpackonubuntu}}"
       state: started
     when : ansible_os_family=="Debian"
 
   - name : i want to start webser apache
     dnf :
-      name : httpd
+      name : "{{mywebpackonuredhat}}"
       state: present
     when : ansible_os_family=="RedHat"
 
   - name : i want to start webser apache
     service :
-      name : httpd
+      name : "{{mywebpackonredhat=httpd}}"
       state: started
     when : ansible_os_family=="RedHat"
 
