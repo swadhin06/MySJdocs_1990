@@ -22,7 +22,7 @@
 
   - name : i want to start webser apache
     service :
-      name : "{{mywebpackonredhat=httpd}}"
+      name : "{{mywebpackonredhat}}"
       state: started
     when : ansible_os_family=="RedHat"
 
