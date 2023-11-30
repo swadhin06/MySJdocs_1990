@@ -3,7 +3,7 @@
   become : yes
   tasks :
   - name : Want to execute linux command
-    command : hostsname -f 
+    command : hostname -f 
     register : myfirsttaskresult
 
   - name : want to display my myfirsttaskresult
