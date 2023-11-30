@@ -18,7 +18,7 @@
         dest : /home/ubuntu/apache-tomcat-10.0.20.tar.gz
         force_basic_auth: yes
 
-    - name : dwnld dynamic file from internet
+  - name : dwnld dynamic file from internet
     template :
         src : myindexfile.j2
         dest : /var/www/html/index.html
