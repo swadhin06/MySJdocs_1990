@@ -1,0 +1,5 @@
+---
+  - name : creating a file at ubuntu node
+    file :
+      path : /home/ubuntu/myfirstfileSJ
+      state : touch

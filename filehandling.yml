@@ -2,7 +2,8 @@
 - hosts : 172.31.35.101
   become: yes
   tasks:
-  - name : creating a file at ubuntu node
-    file :
-      path : /home/ubuntu/myfirstfileSJ
-      state : touch
+  - include_task : myfile.yml
+  - name : install webserver
+      apt :
+       name : apache2
+       state: present
