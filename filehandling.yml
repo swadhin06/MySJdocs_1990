@@ -7,3 +7,7 @@
     apt:
        name : apache2
        state: present
+  - name : copying file
+    copy:
+        src: mytestfile
+        dest: /home/ubuntu
