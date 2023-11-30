@@ -4,6 +4,6 @@
   tasks:
   - include_task : myfile.yml
   - name : install webserver
-      apt :
+      apt:
        name : apache2
        state: present
