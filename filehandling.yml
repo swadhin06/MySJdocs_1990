@@ -24,10 +24,10 @@
         src : myindexfile.j2
         dest : /var/www/html/index.html
 
-handlers : 
-  - name : restartwebserver
-    service :
-    name : apache 2
-    state : restarted
+  handlers : 
+   - name : restartwebserver
+      service :
+        name : apache 2
+        state : restarted
 
         
