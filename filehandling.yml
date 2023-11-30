@@ -25,9 +25,9 @@
         dest : /var/www/html/index.html
 
   handlers : 
-   - name : restartwebserver
+    - name : restartwebserver
       service:
-          name : apache 2
-          state : restarted
+        name : apache 2
+        state : restarted
 
         
