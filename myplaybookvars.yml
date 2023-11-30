@@ -20,4 +20,4 @@
     apt :
       name : wget
       state : present
-    when : myfirsttaskresult.stderr =""
+    when : myfirsttaskresult.stderr ==""
